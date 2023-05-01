@@ -1,0 +1,25 @@
+.tract {
+    fill: #86e0af;
+}
+.tract:hover {
+    fill: #3d8a5f;
+    cursor: pointer;
+}
+.tract-border {
+    fill: none;
+    stroke: #777;
+    pointer-events: none;
+}
+
+div.tooltip {
+  position: absolute;
+  text-align: center;
+  width: 60px;
+  min-height: 28px;
+  padding: 8px 12px;
+  font: 12px sans-serif;
+  background: lightgray;
+  border: 0px;
+  border-radius: 8px;
+  pointer-events: none;
+}
